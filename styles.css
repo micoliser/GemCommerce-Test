@@ -1,0 +1,148 @@
+body {
+    font-family: "Inter", serif;
+    font-size: 0.8rem;
+}
+
+.head h2 {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.top-content, .middle-content, .third-content, .buttom-content {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content .t-content {
+    width: 30%;
+}
+
+.top-content div.t-content {
+    padding: 20px;
+}
+
+img.t-content {
+    border-radius: 50%;
+}
+
+.t-content .t-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-div .icon {
+    width: 15%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.t-div .con {
+    width: 80%;
+}
+
+.t-content .t-div-1 {
+    margin-bottom: 60px;
+}
+
+.t-content .t-div-2 {
+    margin-top: 60px;
+}
+
+.t-last {
+    width: 27%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-last i {
+    font-size: 1rem;
+}
+
+.t-last .icon {
+    display: flex;
+    align-items: center;
+}
+
+.t-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.t-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ee3405;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.group .content {
+    width: 47%;
+    padding: 20px;
+}
+
+.group h2 {
+    font-size: 1.8rem;
+}
+
+.group img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.m-content h3 {
+    margin-top: 40px;
+}
+
+.key-points {
+    display: flex;
+    justify-content: space-between;
+}
+
+.key-points div {
+    width: 10%;
+    color: #ee3405;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.per {
+    display: flex;
+    align-items: center;
+}
+
+.key-points p {
+    width: 83%;
+}
+
+.m-content button{
+    padding: 10px 20px;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    background-color: #ee3405;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.middle {
+    background-color: rgba(241, 241, 234, 0.829);
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
